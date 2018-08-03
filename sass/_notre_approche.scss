@@ -1,0 +1,640 @@
+
+.page-template-notre_approche{
+
+  .dendro_arrow_down{
+
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    -webkit-mask: url("../img/fleche-01.svg") no-repeat 100% 100%;
+    -webkit-mask-size: 250px;
+    background-color: $brown;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
+  .val_arrow_down{
+
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    -webkit-mask: url("../img/fleche-01.svg") no-repeat 100% 100%;
+    -webkit-mask-size: 250px;
+    background-color: $brown;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
+  .labo_arrow_down{
+
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    -webkit-mask: url("../img/fleche-01.svg") no-repeat 100% 100%;
+    -webkit-mask-size: 250px;
+    background-color: $brown;
+    bottom: 23%;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
+  .row_up{
+
+    // max-width: 1900px;
+
+  }
+
+  .row_val{
+
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+
+  }
+
+  .row_up_val{
+
+    background-color: $off-white;
+    width: 75%;
+    float: left;
+
+  }
+
+  .val_container{
+    background-color: $off-white;
+    height: calc(100vh - 111px);
+    position: relative;
+    background-image: url('../img/wood.png');
+    background-repeat: no-repeat;
+    background-position: -13% 130%;
+    background-size: 45%;
+
+  }
+
+  .row_dendro{
+
+    height: calc(100vh - 111px);
+    position: relative;
+    top: 50%;
+    transform: translateY(-30%);
+
+
+
+  }
+
+  .row_up_actu{
+
+    background-color: $off-white;
+    // max-width: 1900px;
+    position: relative;
+    bottom: 100px;
+    height: 100px;
+
+
+  }
+
+.circle_page{
+
+  height: 400px;
+  width: 60px;
+  top: 50%;
+  transform: translateY(35%);
+}
+
+.circle{
+
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background-color:  $off-white;
+  margin-top: 10px;
+
+}
+
+.circle_brown{
+
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background-color:  $brown;
+  margin-top: 10px;
+
+}
+
+.val_circle{
+
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background-color:  #D3D3D3;
+  margin-top: 10px;
+
+}
+
+.val_circle_brown{
+
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background-color:  $brown;
+  margin-top: 10px;
+
+}
+
+.base_circle_brown{
+
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  background-color:  $brown;
+  margin-top: 10px;
+  border: 2px solid white;
+
+}
+
+/*------------------------------- STYLE --> DENDRO -------------------------*/
+
+
+
+
+  .dendro_left{
+
+
+    height: 250px;
+    width: auto;
+
+ }
+
+ .dendro_left_img{
+
+   padding-left: 0 !important;
+   background-image: url('../img/home_vinci.png');
+   background-size: 100%;
+   background-position: center center;
+   background-repeat: no-repeat;
+ }
+
+.dendro_right_img_box{
+
+  max-height: 500px;
+  height: 500px;
+  width: 500px;
+  max-width: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  .dendro_right_img_respon{
+
+    display: block;
+    background-image: url('../img/home_vinci.png');
+    background-size: 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: none;
+
+
+  }
+
+
+}
+
+
+
+ .dendro_right_title{
+
+   color: $brown;
+   text-transform: uppercase;
+   font-size: 30px;
+
+ }
+
+ .dendro_right_title_span{
+
+  font-weight: bold;
+  font-size: 35px;
+
+ }
+
+ .dendro_right_text{
+
+  line-height: 190%;
+  font-weight: 300;
+  max-width: 650px;
+  margin-top: 20px;
+  letter-spacing: 0.1px;
+  font-size: 18px;
+ }
+
+ .dendro_right_span{
+
+  border-bottom: 2px solid $brown;
+  width: 15px;
+  margin-top: 40px;
+
+ }
+
+ .dendro_right_more{
+
+   color: $brown;
+   font-weight: 300;
+   margin-top: 40px;
+   font-size: 20px;
+ }
+
+ .dendro_right_contactus{
+
+   background-color: $brown;
+   color: white;
+   padding: 7px;
+   text-align: center;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: 300;
+   position : absolute;
+   margin-top: 20px;
+
+
+ }
+
+.dendro_right_contactus_dottedbox{
+
+
+  border-style: hidden dotted dotted hidden;
+  width: 30px;
+  max-width: 150px;
+  height: 30px;
+  color: $brown;
+  border-width: 1px;
+  right: -5px;
+  bottom: -5px;
+  position: absolute;
+}
+
+/*------------------------------- STYLE --> VAL -------------------------*/
+
+  .val_left_title{
+
+    color: $brown;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .val_left_title_span{
+
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .val_left_text{
+
+    line-height: 190%;
+    font-weight: 300;
+    max-width: 650px;
+    margin-top: 20px;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+
+  }
+
+  .val_left_text_span{
+
+    font-weight: bolder;
+    color: black;
+    font-size: 18px;
+
+  }
+
+  .val_right{
+    // max-width: 1900px;
+    max-height: 1200px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    position: absolute;
+  }
+
+  .val_right_img{
+
+    position: fixed;
+    height: max-content;
+    max-height: calc(100vh - 104px);
+    right: 0;
+    max-width: 650px;
+
+  }
+
+/*------------------------------- STYLE --> LABO -------------------------*/
+
+.labo{
+
+
+}
+
+.labo_left img{
+
+ height: 250px;
+ width: auto;
+}
+
+.labo_right_title{
+
+ color: $brown;
+ text-transform: uppercase;
+ font-size: 30px;
+}
+
+.labo_right_title_span{
+
+ font-weight: bold;
+ font-size: 35px;
+}
+
+.labo_right_text{
+
+ line-height: 190%;
+ font-weight: 300;
+ max-width: 650px;
+ margin-top: 20px;
+ letter-spacing: 0.1px;
+ font-size: 18px;
+}
+
+
+
+.labo_right_terrain_text{
+
+
+ color: $brown;
+ text-transform: uppercase;
+ font-size: 18px;
+ font-weight: bold;
+ text-align: center;
+
+
+}
+
+.labo_right_labo_text{
+
+ color: $brown;
+ text-transform: uppercase;
+ font-size: 18px;
+ font-weight: bold;
+ text-align: center;
+
+
+
+}
+
+.labo_right_list{
+
+ color: $brown;
+ list-style-type: square;
+ margin-top: 15px;
+}
+
+.labo_right_li{
+
+
+ color: #000;
+ font-weight: 300;
+ font-size: 15px;
+}
+
+.labo_box{
+
+ background-color: $off-white ;
+ padding: 30px;
+ border: 5px solid $off-white;
+ margin-top: 50px;
+ min-height: 200px;
+ width: 325px;
+ margin-left: 25px;
+
+ &:hover.labo_box{
+
+   background-color: #FFFFFF;
+   border: 5px solid $brown;
+   padding: 30px;
+   margin-top: 50px;
+   margin-left: 25px;
+   height: 200px;
+   width: 325px;
+
+ }
+
+ ul{
+
+   padding-left: 0;
+ }
+
+ li::before {content: "■"; color: $brown; left: -20px; position: absolute;}
+
+ li{
+
+   position: relative;
+   max-width: 650px;
+   line-height: 130%;
+   list-style-type: none;
+   font-size: 1.15em;
+
+ }
+}
+
+.row_labo{
+
+
+  height: calc(100vh - 140px);
+  position: relative;
+  top: 50%;
+  transform: translateY(-35%);
+
+}
+
+.lab{
+
+  height: 500px;
+}
+
+.terrain_box{
+
+ background-color: $off-white ;
+ padding: 30px;
+ border: 5px solid $off-white;
+ margin-top: 50px;
+ min-height: 200px;
+ width: 325px;
+ margin-right: 25px;
+
+
+
+ &:hover.terrain_box{
+
+ background-color: #FFFFFF;
+ border: 5px solid $brown;
+ padding: 30px;
+ margin-top: 50px;
+ height: 200px;
+ width: 325px;
+
+
+ }
+
+
+ ul{
+
+   padding-left: 0;
+ }
+
+ li::before {content: "■"; color: $brown; left: -20px; position: absolute;}
+
+ li{
+
+   position: relative;
+   max-width: 650px;
+   line-height: 130%;
+   list-style-type: none;
+   font-size: 1.15em;
+
+ }
+
+}
+
+
+/*------------------------------- STYLE --> ACTU -------------------------*/
+
+.actu_last{
+
+  color: white;
+  background-color: $brown;
+  font-size: 25px;
+  border: 2px solid $brown;
+  padding: 7px;
+  text-align: center;
+  max-width: 315px;;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(50%);
+  position: relative;
+}
+
+.actu_last_dottedbox{
+
+  border-style: hidden dotted dotted hidden;
+  width: 30px;
+  max-width: 150px;
+  height: 30px;
+  color: $brown;
+  border-width: 1px;
+  right: -7px;
+  bottom: -7px;
+  position: absolute;
+}
+
+
+
+
+/*------------------------------- STYLE --> BASE -------------------------*/
+
+.base_left img{
+
+  height: 380px;
+  width: auto;
+
+
+ }
+
+ .base{
+
+
+ }
+
+.base_right_title{
+
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+
+
+
+}
+
+.base_right_title_span{
+
+  font-weight: 300;
+
+}
+
+.base_right_text{
+
+
+  line-height: 190%;
+  font-weight: 300;
+  max-width: 650px;
+  margin-top: 20px;
+  letter-spacing: 0.1px;
+  font-size: 18px;
+}
+
+.base_right_consulter{
+
+  color: white;
+  padding: 7px;
+  text-transform: uppercase;
+  text-align: left;
+  border: 2px solid white;
+  max-width: 315px;
+  margin-top: 60px;
+  font-weight: 300;
+  font-size: 20px;
+  position: relative;
+
+
+
+}
+
+.base_right_consulter_dottedbox{
+
+  border-style: hidden dotted dotted hidden;
+  width: 30px;
+  max-width: 150px;
+  height: 30px;
+  color: white;
+  border-width: 1px;
+  right: -7px;
+  bottom: -7px;
+  position: absolute;
+
+}
+.row_up_base{
+
+  background-color: $brown;
+  height: calc(100vh - 237px);
+
+
+
+}
+
+.row_base{
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.base_right_img_respon{
+
+  display: none;
+}
+
+
+}

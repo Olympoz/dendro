@@ -1,0 +1,227 @@
+.page-template-actualites{
+
+  .actualites{
+
+    background-color: #F7F6F6;
+    max-width: 1100px;
+
+    .title_actualites{
+
+      text-transform: uppercase;
+      color: $brown;
+      font-size: 33px;
+      text-align: center;
+      margin-top: 50px;
+
+      span{
+
+        font-weight: bold;
+      }
+    }
+
+    .title_lign{
+
+      min-height: 1px;
+      width: 20px;
+      border-top: 3px solid $brown;
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+    }
+
+    .filters_actualites{
+
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+
+      .filter_tags{
+
+        background-color: transparent;
+        color: $brown;
+        padding: 7px;
+        text-align: center;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 300;
+        height: min-content;
+        margin-top: 20px;
+        border: 1px solid $brown;
+        position: relative;
+
+        &:hover{
+
+          background-color: $brown;
+          color: white;
+          transition: 0.3s;
+        }
+      }
+
+     .filter_tags_border{
+
+
+       border-style: hidden dotted dotted hidden;
+       width: 25px;
+       max-width: 150px;
+       height: 25px;
+       color: $brown;
+       border-width: 1px;
+       right: -7px;
+       bottom: -7px;
+       position: absolute;
+     }
+    }
+
+    .actualites_jsp{
+
+      background-image: url('../img/cross.png');
+      background-position: 7.5% 2%;
+      background-size: 45px;
+      background-repeat: no-repeat;
+      padding-top: 50px;
+
+      .actualites_wrapper{
+
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        .actualites_content{
+
+          height: 273px;
+          width: 273px;
+          margin: 0 auto;
+          border: 5px solid white;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url('https://media.mutualart.com/Images/2010_12/30/0040/1071303/129380845986272989_a5395896-b548-46a6-be85-caa49eb7702d_34d79e898a8440f79ba4fcb2579443f4_273.Jpeg');
+          position: relative;
+          margin-bottom: 15px;
+
+          &:hover{
+
+            &:hover.actualites_content .overlay{
+
+              opacity: 1;
+
+            }
+
+            &:hover.actualites_content .overlay_brown{
+
+              display: block;
+
+            }
+          }
+
+          .actualites_tags{
+
+            position: absolute;
+            top: 30px;
+            right: 0px;
+            background-color: white;
+            padding: 5px 5px 5px 10px;
+            text-transform: uppercase;
+            font-size: 10px;
+            font-weight: bold;
+
+          }
+
+          .actualites_description{
+
+            text-transform: uppercase;
+            color: white;
+            background-color: rgba(155, 153, 121, 0.7);
+            width: max-content;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+
+          }
+
+          .overlay{
+
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0;
+
+            }
+
+          .overlay_brown{
+
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: none;
+            background-color: $brown;
+            opacity: 0.6;
+          }
+
+          .overlay_more{
+
+            z-index: 100000;
+            transition: inherit;
+            background-color: $brown;
+            color: white;
+            padding: 7px;
+            max-height: 50px;
+            text-align: center;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: 200;
+            position: relative;
+            max-width: 150px;
+            margin: 0 auto;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+
+            .overlay_dotted_up{
+
+              border-style: dotted hidden hidden dotted;
+              width: 30px;
+              height: 30px;
+              position: absolute;
+              color: white;
+              left: -40px;
+              top: -40px;
+              border-width: 1.5px;
+              transform: rotate(180deg);
+
+            }
+
+            .overlay_dotted_down{
+
+              border-style: hidden dotted dotted hidden;
+              width: 30px;
+              height: 30px;
+              position: absolute;
+              color: white;
+              right: -40px;
+              bottom: -40px;
+              border-width: 1.5px;
+              transform: rotate(180deg);
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

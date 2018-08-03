@@ -1,0 +1,91 @@
+/*------------------------------------*\
+	GENERAL
+\*------------------------------------*/
+
+html {
+	background-color: #FFFFFF;
+	color: #000;
+}
+
+header, footer{
+
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+body {
+	transition: all 1s;
+	margin: 0 auto;
+	font-size: 14px;
+	color: $text-color;
+	font-weight: 400;
+	line-height: 1.2;
+	font-family: 'Sanuk-Regular', sans-serif;
+	background: $bg;
+	@media screen and (max-width:$size3) {
+		max-width: 1024px;
+	}
+	@media screen and (max-width:960px) {
+		max-width: 960px;
+	}
+	@media screen and (max-width:$size4) {
+		max-width: 768px;
+	}
+}
+
+*{
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+fieldset, img {
+	border: 0
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal
+}
+ol, ul {
+	padding-left: 40px
+}
+caption, th {
+	text-align: left
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+	font-family : 'QuadraatSans', sans-serif;
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal
+}
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	outline: 0;
+	border-radius: 0;
+	*font-size: 100%
+}
+legend {
+	color: #000
+}
+
+a{
+	color: inherit !important;
+	text-decoration: none !important;
+}

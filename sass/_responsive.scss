@@ -1,0 +1,1296 @@
+
+
+
+.blur-test{
+  &.active{
+    filter: blur(3px);
+    @include transition(0.1s);
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 1500px -------------------------*/
+
+@media screen and (max-width : 1500px){
+
+  .val_container{
+
+    .val_right{
+
+      .val_right_img{
+
+        display: none;
+      }
+    }
+  }
+
+  body{
+
+    header{
+
+      nav{
+
+        .menu{
+
+          padding-top: 46px;
+        }
+
+
+        ul{
+
+          li{
+
+            font-size: 1em;
+
+          }
+
+          .second_menu{
+
+                font-size: 1em;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*------------------------------- RESPONSIVE --> 1280px -------------------------*/
+
+@media screen and (max-width: $size1){
+
+
+  .col{
+
+    display: none;
+  }
+
+  .circle_page{
+
+    display: none;
+  }
+
+  .header_page_2{
+
+    height: 450px;
+  }
+
+  .etape{
+
+    .wrapper_etape{
+
+      width: 100% !important;
+
+      .etape_container_1{
+
+        float: none !important;
+        margin: 0 auto !important;
+        max-width: 100% !important;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .etape_bloc{
+
+          width: auto !important;
+          padding: 70px;
+
+        }
+      }
+
+      .etape_container_2{
+
+        display: none !important;
+      }
+    }
+  }
+
+  .presentation{
+
+    margin: 0 auto;
+    height: auto !important;
+
+      .col-sm-6.pres{
+
+        width: 0;
+
+        .presentation_video{
+
+          display: none;
+        }
+      }
+
+      .col-custom-demi.pres{
+
+        width: 25%;
+      }
+
+      .col-custom-quatre.pres{
+
+        width: 75%;
+      }
+  }
+
+////////////////////
+
+  .row_dendro{
+
+    transform: none ;
+    top: 10% ;
+
+    .dendro{
+
+      width: 100%;
+
+      .dendro_right{
+
+        .dendro_right_title{
+
+          text-align: center;
+          font-size: 25px !important;
+
+          .dendro_right_title_span{
+
+            font-size: 30px !important;
+
+          }
+        }
+
+        .dendro_right_text{
+
+          margin: 0 auto;
+
+        }
+
+        .dendro_right_span{
+
+          margin: 0 auto;
+
+        }
+
+        .dendro_right_more{
+
+          text-align: center;
+        }
+
+        .dendro_right_contactus{
+
+          left: 50%;
+          transform: translateX(-50%);
+          margin-top: 28px !important;
+
+        }
+
+        .dendro_right_img_box{
+
+          position: absolute;
+          margin-top: 102px;
+
+          .dendro_right_img_respon{
+
+            display: block !important;
+
+          }
+        }
+      }
+    }
+  }
+
+/////////////////
+
+    .row_val{
+
+      transform: none !important;
+      top: 15% !important;
+
+    }
+
+        .val{
+
+        width: 100%;
+
+        }
+
+        .val_left_title{
+
+          text-align: center;
+          font-size: 25px !important;
+
+          .val_left_title_span{
+
+            font-size: 30px !important;
+
+          }
+        }
+
+        .val_left_text{
+
+          margin: 0 auto;
+
+        }
+
+///////////////////////////
+
+
+  .row_labo{
+
+    top: 5% !important;
+    transform: none !important;
+
+  }
+
+    .labo_left{
+
+      display: none;
+    }
+
+    .labo{
+
+      width: 100%;
+
+    }
+
+    .labo_right_title{
+
+      text-align: center;
+      font-size: 25px !important;
+
+    }
+
+    .labo_right_title_span{
+
+      font-size: 30px !important;
+    }
+
+    .labo_right_text{
+
+      margin: 0 auto;
+
+    }
+
+      .terrain_box{
+
+        left: 20% !important;
+        margin-right: 0px !important;
+
+      }
+
+      .labo_box{
+
+        left: 25% !important;
+        margin-left: 0px !important;
+
+
+      }
+
+//////////////////
+
+
+
+    .row_base{
+
+      top: 15% !important;
+      transform: none !important;
+
+      .base_left{
+
+        display: none;
+      }
+
+    .base{
+
+      width: 100%;
+
+      }
+
+    .base_right_title{
+
+      text-align: center;
+      font-size: 25px !important;
+
+      }
+
+      .base_right_title_span{
+
+        font-size: 30px !important;
+
+      }
+
+
+    .base_right_text{
+
+      margin: 0 auto;
+
+    }
+
+    .base_right_consulter{
+
+      margin: 0 auto;
+      margin-top: 50px !important;
+    }
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 2 -------------------------*/
+
+@media screen and (max-width: $size2){
+
+header{
+
+  .logo_header{
+
+    width: 20% !important;
+  }
+
+  nav{
+    width: 75% !important;
+
+  }
+}
+
+  .footer_background{
+
+    .row{
+
+      .reau{
+
+        .footer_dendrabase{
+
+          float: none !important;
+          margin: 0 auto;
+
+        }
+
+        .footer_docs{
+
+          float: none !important;
+          margin: 0 auto !important;
+          padding-top: 15px;
+          margin-bottom:5%;
+          text-align: center;
+          padding-left: 0 !important
+        }
+      }
+
+      .logo{
+
+
+      }
+
+      .reau{
+
+        .footer_contact{
+
+          float: none !important;
+          width: 100%;
+          max-width: 150px;
+          padding: 4%;
+        }
+      }
+    }
+  }
+
+
+}
+/*------------------------------- RESPONSIVE --> SIZE 1050px -------------------------*/
+
+@media screen and (max-width : 1050px ){
+
+  header{
+
+    nav{
+
+      ul{
+
+        #sub_menu{
+
+          margin-left: -5% !important;
+        }
+      }
+    }
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 1024px -------------------------*/
+
+@media screen and (max-width : 1024px ){
+
+.logo_header{
+
+  width: 30% !important;
+}
+
+.logo_menu{
+
+  display: block;
+  cursor: pointer;
+  @include transition(0.1s);
+
+
+  &.toggle-right{
+
+      right: 270px;
+      @include transition(0.1s);
+
+  }
+
+}
+
+body{
+
+   &.body-open{
+
+    right: 240px;
+
+   }
+
+  header{
+
+    nav{
+
+      position: fixed;
+      right: -250px;
+      width: 250px !important;
+      @include transition(0.1s);
+      background-color: #000;
+      height: 100%;
+
+      .menu{
+
+        text-align: left;
+
+      }
+
+      ul{
+
+        margin: 0 auto;
+
+        .cross_nav{
+
+          margin-top: 25px;
+          top: 0;
+
+        }
+
+        .sub_menu_dotted_lign{
+
+          display: none;
+        }
+
+
+
+        #sub_menu{
+
+          margin-left: 0 !important;
+
+
+          ul{
+
+            height: 70px;
+
+            li{
+
+              text-align: left !important;
+            }
+
+
+          }
+        }
+
+        #sub_menu_home{
+
+          margin-left: 0 !important;
+
+
+          ul{
+
+            height: 70px;
+
+            li{
+
+              text-align: left !important;
+
+            }
+
+          }
+        }
+
+        li{
+
+          float: none;
+          margin-top: 25px;
+          text-decoration: none;
+          display: block;
+          font-size: 1.2em;
+          text-shadow: none;
+          color: $off-white;
+
+          &:after{
+            display: none;
+          }
+
+          &:hover{
+            &:after{
+
+            display: none;
+
+            }
+          }
+
+
+        }
+
+        .second_menu{
+
+          float: none;
+          display: block;
+          margin-top: 25px;
+          font-size: 1.2em;
+          text-shadow: none;
+          color: $off-white;
+
+        }
+      }
+
+      &.menu-open{
+        right: 0;
+        @include transition(0.1s);
+        backdrop-filter: blur(2px);
+
+      }
+    }
+  }
+}
+
+
+  .row_labo{
+
+    height: calc(100vh - 106px) !important;
+
+  }
+
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 948px -------------------------*/
+
+@media screen and (max-width: 948px){
+
+
+  .terrain_box{
+
+    left: 13% !important;
+
+    .labo_box{
+
+      left: 17% !important;
+
+    }
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 850px -------------------------*/
+
+@media screen and (max-width: 850px){
+
+  .contexte{
+
+    float: none;
+    height: auto !important;
+    height: 800px !important;
+
+
+    .contexte_left{
+
+      float: none !important;
+      left: 50%;
+      transform: translateX(-50%);
+
+      .contexte_left_text{
+
+        line-height: 150% !important;
+      }
+    }
+
+    .contexte_right{
+
+      margin-top: 69px !important;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 400px !important;
+
+      .contexte_right_bloc{
+
+        float: none;
+
+      }
+    }
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 820px -------------------------*/
+
+@media screen and (max-width: 820px){
+
+  .terrain_box{
+
+    left: 10% !important;
+
+    .labo_box{
+
+      left: 15% !important;
+
+
+    }
+  }
+}
+
+
+/*------------------------------- RESPONSIVE --> SIZE 768px -------------------------*/
+
+
+@media screen and (max-width: 768px){
+
+  .page-template-nos_moyens{
+
+    .team{
+
+      max-width: inherit !important;
+      height: inherit !important;
+      display: inherit !important;
+      align-items: inherit !important;
+    }
+
+    .skills{
+
+      max-width: inherit !important;
+      height: inherit !important;
+      display: inherit !important;
+      align-items: inherit !important;
+    }
+
+    .atouts{
+
+      max-width: inherit !important;
+      height: inherit !important;
+      display: inherit !important;
+      align-items: inherit !important;
+    }
+  }
+
+    .logo_dendrotech{
+
+      top: 0px !important;
+      transform: none !important;
+    }
+
+    /////////////////////////////
+
+    .contexte{
+
+      .contexte_right{
+
+        margin-top: 300px !important;
+
+        .contexte_right_bloc{
+
+          float: none;
+
+        }
+      }
+    }
+
+    /////////////////////////////
+
+    .etape{
+
+      .etape_title_1{
+
+        font-size: 24px !important;
+      }
+
+      .etape_title_2{
+
+        font-size: 16px !important;
+      }
+
+      .etape_text {
+
+        font-size: 15px !important;
+
+        p{
+
+          margin-top: 20px !important;
+        }
+
+        li{
+
+          margin-top: 10px !important;
+          list-style-type: none;
+        }
+
+      }
+
+      .wrapper_etape{
+
+        .etape_container_1{
+
+          .etape_bloc{
+
+            padding: 20px !important;
+
+          }
+        }
+
+        .etape_container_2{
+
+          display: none !important;
+        }
+      }
+    }
+
+    //////////////////////////
+
+    .gorge{
+
+      height: auto !important;
+
+      .modif{
+
+        float: none;
+        margin: 0 auto;
+
+      }
+
+      .gorge_bloc_2{
+
+        float: none;
+      }
+    }
+
+
+    //////////////////////////
+
+
+    .application{
+
+      float: none;
+
+      .application_left{
+
+        float: none !important;
+      }
+
+      .application_right{
+
+        float: none !important;
+        margin-top: 250px !important;
+        max-width: 1900px !important;
+
+        .application_right_bloc{
+
+          float: none !important;
+
+        }
+      }
+    }
+
+    .reau{
+
+      margin-bottom: 10px !important;
+    }
+
+  .terrain_box{
+
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .labo_box{
+
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin-left: 0px !important;
+  }
+
+  .row_up_base{
+
+    height: calc(100vh - 400px) !important;
+  }
+}
+
+/* ------------------------------ RESPONSIVE --> 650px --------------------------*/
+
+
+@media screen and (max-width: 650px){
+
+  .presentation{
+
+    .col-sm-12.pres{
+
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .col-custom-demi.pres{
+
+      float: none;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .col-custom-quatre.pres{
+
+      float: none;
+      margin: 0 auto;
+      width: 100%;
+
+    }
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 4 -------------------------*/
+
+
+@media screen and (max-width: $size4) {
+
+
+  .charpente_raz{
+
+    padding-right:0 !important ;
+  }
+
+  .gorge_water_raz{
+
+    padding-left: 0 !important;
+  }
+
+  .notre .notre_first_title{
+    text-align: left;
+  }
+  .notre .notre_second_title{
+
+    text-align: left;
+
+  }
+    .notre .notre_arbre{
+
+    max-width: 100%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom:  0;
+    left: 230px;
+    margin-right: 50px;
+    display: none;
+
+  }
+
+  .methode{
+
+    margin-top: 40px;
+    margin-left: 0;
+
+  }
+
+  .methode_more{
+
+    margin: 0 auto;
+
+  }
+
+  .footer_dendrabase{
+
+    float: none !important;
+    margin: 0 auto;
+
+  }
+
+  .footer_docs{
+
+    float: none !important;
+    margin: 0 auto !important;
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align: center;
+    padding-left: 0 !important
+  }
+
+  .footer_contact{
+
+    float: none !important;
+    padding-top: 5%;
+    text-align: center;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 550px ---------------------*/
+
+
+@media screen and (max-width: 550px) {
+
+  .application{
+
+    .application_right{
+
+      margin-top: 370px !important;
+
+    }
+  }
+}
+
+/*------------------------------- RESPONSIVE --> SIZE 5 -------------------------*/
+
+  @media screen and (max-width: $size5){
+
+    .dendro_right_contactus{
+
+      font-size: 18px !important;
+      max-width: 177px !important;
+    }
+
+  .footer_background{
+
+    .row{
+
+      .reau{
+
+        .footer_dendrabase{
+
+        float: none !important;
+        text-align: center;
+
+        }
+
+        .footer_docs{
+
+        float: none !important;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+        padding-left: 0 !important;
+
+        }
+      }
+
+      .reau{
+
+        .footer_contact{
+
+          float: none !important;
+          padding-top: 5%;
+          text-align: center;
+          width: 100%;
+          max-width: 150px;
+          margin: 0 auto;
+        }
+      }
+    }
+
+  }
+
+}
+
+/*------------------------------- RESPONSIVE --> mobile 480px -------------------------*/
+
+  @media screen and (max-width: $size5){
+
+    .presentation{
+
+      .col-custom-demi.pres{
+
+        width: 80%;
+
+      }
+    }
+
+    .header_page{
+
+      display: block;
+    }
+
+    .menu-principal{
+
+      display: block;
+
+    }
+
+    .logo_menu{
+
+      display: block;
+      cursor: pointer;
+      @include transition(0.1s);
+
+      &.toggle-right{
+
+          right: 9%;
+          @include transition(0.1s);
+
+      }
+    }
+
+    body{
+
+       &.body-open{
+
+        right: 100%;
+
+       }
+
+      header{
+
+        nav{
+
+          position: fixed;
+          right: 100%;
+          width: 100% !important;
+          @include transition(0.1s);
+          background-color: #000;
+          height: 100%;
+
+          #sub_menu{
+
+            li{
+
+              margin-top: 10px !important;
+            }
+          }
+
+            .logo_exit{
+
+              display: none;
+            }
+
+          &.menu-open{
+            right: 0;
+            @include transition(0.1s);
+            backdrop-filter: blur(2px);
+
+          }
+       }
+     }
+   }
+
+    .page_template_notre_approche{
+
+      .row_dendro{
+
+        top: 50% !important;
+        transform: translateY(-50%) !important ;
+
+      }
+    }
+
+    .footer_contact{
+
+      margin-bottom: 20px;
+    }
+
+    .dendro_right_title{
+
+      font-size: 16px !important;
+      margin-top: 10px !important;
+      text-align: left;
+
+    }
+
+    .dendro_right_title_span{
+
+      font-size: 18px !important;
+
+    }
+
+    .dendro_right_text{
+
+      line-height: 140%;
+      font-size: 14px !important;
+      margin-top: 20px !important;
+
+    }
+
+    .dendro_right_span{
+
+      margin-top: 20px !important;
+
+    }
+
+    .dendro_right_more{
+
+      margin-top: 20px !important;
+      font-size: 15px !important;
+
+    }
+
+    .dendro_right_contactus{
+
+      font-size: 15px !important;
+      width: 177px !important;
+      margin-top: 15px !important;
+    }
+
+    .dendro_right_img_respon{
+
+      display: block;
+
+    }
+
+    .row_val{
+
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+    }
+
+    .val_container{
+
+      height: calc(100vh ) !important;
+
+    }
+
+    .val_left_title{
+
+      font-size: 16px !important;
+      margin-top: 5px !important;
+      text-align: left;
+
+    }
+
+    .val_left_title_span{
+
+      font-size: 18px !important;
+
+    }
+
+    .val_left_text{
+
+      line-height: 140% !important;
+      font-size: 14px !important;
+      margin-top: 10px !important;
+    }
+
+    .row_labo{
+
+      height: calc(100vh - 105px) !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+    }
+
+    .labo{
+
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .lab{
+
+      margin-top: 50px;
+    }
+
+    .labo_right_title{
+
+      font-size: 16px !important;
+      margin-top: 5px !important;
+      text-align: left;
+      margin-top: 25px !important;
+
+    }
+
+    .labo_right_title_span{
+
+      font-size: 18px !important;
+    }
+
+    .labo_right_text{
+
+      line-height: 140% !important;
+      font-size: 14px !important;
+      margin-top: 10px !important;
+    }
+
+    .labo_box{
+
+      margin-top: 10px !important;
+
+      &:hover.labo_box{
+
+        margin-top: 10px !important;
+      }
+    }
+
+    .terrain_box{
+
+      margin-top: 10px !important;
+
+      &:hover.terrain_box{
+
+        margin-top: 10px !important;
+      }
+    }
+
+    .row_up_actu{
+
+      bottom: 100px !important;
+      background-color: none !important;
+
+    }
+
+    .actu_last{
+
+      max-width: 199px !important;
+      font-size: 16px !important;
+
+    }
+
+    .row_up_base{
+
+      height: calc(100vh - 365px) !important;
+    }
+
+    .row_base{
+
+      height: calc(100vh) !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+    }
+
+    .base{
+
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+    }
+
+    .base_right_title{
+
+      font-size: 16px !important;
+      margin-top: 5px !important;
+      text-align: left;
+      margin-top: 25px !important;
+
+    }
+
+    .base_right_title_span{
+
+
+      font-size: 18px !important;
+    }
+
+    .base_right_img_respon{
+
+      height: 250px;
+      width: 250px;
+
+    }
+
+    .base_right_text{
+
+      line-height: 140% !important;
+      font-size: 14px !important;
+      margin-top: 10px !important;
+    }
+
+    .base_right_consulter{
+
+      max-width: 255px !important;
+      font-size: 16px !important;
+
+    }
+  }

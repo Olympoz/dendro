@@ -1,0 +1,642 @@
+
+#charpente_application_1{
+
+  display: block;
+
+}
+
+#charpente_application_2{
+
+  display: none;
+
+}
+
+#charpente_application_3{
+
+
+  display: none;
+
+}
+
+#charpente_application_4{
+
+  display: none;
+
+}
+
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+
+.col-custom-demi{
+
+  float: left;
+  width: 12.5%;
+  position: relative;
+  min-height: 1px;
+
+}
+
+.col-custom-quatre{
+
+  float: left;
+  width: 37.5%;
+  position: relative;
+  min-height: 1px;
+
+}
+
+.presentation{
+
+  margin-top: -300px;
+  height: 600px;
+
+    .pres{
+
+      padding: 0px;
+
+    }
+
+
+
+    .presentation_video{
+
+      background-color: #D3D3D3;
+      height: 600px;
+
+      #presentation_video_img1{
+
+        background-size: auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+      }
+      #presentation_video_img2{
+
+        background-size: auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+      }
+
+      .video_charpente_test {
+
+        background: transparent url("../img/play-button.png") 50% 50% / 100% no-repeat ;
+
+      }
+
+
+      #presentation_video_img3{
+
+        background-size: auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+      }
+
+      #presentation_video_img4{
+
+          background-size: auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 600px;
+      }
+    }
+
+    .presentation_onglet_default{
+
+      background-color: white;
+      color: $brown;
+      border: 1px solid $brown;
+
+    }
+
+    .presentation_onglet{
+
+
+      height: 600px;
+      background-color: #000;
+      cursor: pointer;
+
+      .pres_text{
+
+      text-align: center;
+      padding-top: 62px;
+      text-transform: uppercase;
+      color: $brown;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-size: 16px;
+
+      }
+
+      #presentation_onglet_pres{
+
+        height: 150px;
+
+      }
+
+      #presentation_onglet_test{
+
+        height: 150px;
+
+      }
+
+      #presentation_onglet_expertise{
+
+        height: 150px;
+
+      }
+
+      #presentation_onglet_archeo{
+
+        height: 150px;
+
+      }
+
+
+    }
+
+    .presentation_pres{
+
+
+      background-color: $off-white;
+      height: 600px;
+
+
+      .presentation_right_1{
+
+        display: block;
+        padding-top: 110px;
+        padding-left: 40px;
+        padding-right: 20px;
+
+
+        .presentation_right_title_1{
+
+          color: $brown;
+          text-transform: uppercase;
+          font-size: 25px;
+          font-weight: bold;
+          font-size: 25px;
+
+        }
+
+        .presentation_right_text_1{
+
+          line-height: 190%;
+          font-weight: 400;
+          max-width: 450px;
+          margin-top: 40px;
+          letter-spacing: 0.1px;
+          font-size: 18px;
+        }
+
+        .presentation_right_span_1{
+
+          margin-top: 40px;
+          border-bottom: 3px solid $brown;
+          width: 15px;
+
+        }
+
+        .presentation_right_more_1{
+
+          color: $brown;
+          font-size: 16px;
+          margin-top: 40px;
+          font-weight: 400;
+
+        }
+
+        .presentation_right_contactus_1{
+
+          background-color: $brown;
+          color: white;
+          padding: 7px;
+          text-align: center;
+          font-size: 20px;
+          text-transform: uppercase;
+          font-weight: 300;
+          position : relative;
+          margin-top: 40px;
+          max-width: 195px;
+
+          .presentation_right_contactus_dottedbox{
+
+
+            border-style: hidden dotted dotted hidden;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            color: $brown;
+            border-width: 1px;
+            right: -5px;
+            bottom: -5px;
+
+
+          }
+        }
+  }
+
+
+
+              .presentation_right_2{
+
+                display: none;
+                padding-top: 110px;
+                padding-left: 40px;
+                padding-right: 20px;
+
+
+                .presentation_right_title_2{
+
+                  color: $brown;
+                  text-transform: uppercase;
+                  font-size: 25px;
+
+                    .presentation_title_span{
+
+                      font-weight: bold;
+                      font-size: 25px;
+
+                    }
+                }
+
+                .presentation_right_text_2{
+
+                  line-height: 190%;
+                  font-weight: 400;
+                  max-width: 450px;
+                  margin-top: 40px;
+                  letter-spacing: 0.1px;
+                  font-size: 18px;
+                }
+
+                .presentation_right_span_2{
+
+                  margin-top: 40px;
+                  border-bottom: 3px solid $brown;
+                  width: 15px;
+
+                }
+
+                .presentation_right_more_2{
+
+                  color: $brown;
+                  font-size: 16px;
+                  margin-top: 40px;
+                  font-weight: 400;
+
+                }
+
+                .presentation_right_contactus_2{
+
+                  background-color: $brown;
+                  color: white;
+                  padding: 7px;
+                  text-align: center;
+                  font-size: 20px;
+                  text-transform: uppercase;
+                  font-weight: 300;
+                  position : relative;
+                  margin-top: 40px;
+                  max-width: 195px;
+
+                }
+
+                .presentation_right_contactus_dottedbox{
+
+
+                  border-style: hidden dotted dotted hidden;
+                  width: 30px;
+                  height: 30px;
+                  position: absolute;
+                  color: $brown;
+                  border-width: 1px;
+                  right: -5px;
+                  bottom: -5px;
+
+
+
+                }
+
+
+      }
+
+      .presentation_right_3{
+
+        display: none;
+        padding-top: 110px;
+        padding-left: 40px;
+        padding-right: 20px;
+
+
+        .presentation_right_title_3{
+
+          color: $brown;
+          text-transform: uppercase;
+          font-size: 25px;
+
+            .presentation_title_span{
+
+              font-weight: bold;
+              font-size: 25px;
+
+            }
+        }
+
+        .presentation_right_text_3{
+
+          line-height: 190%;
+          font-weight: 400;
+          max-width: 450px;
+          margin-top: 40px;
+          letter-spacing: 0.1px;
+          font-size: 18px;
+        }
+
+        .presentation_right_span_3{
+
+          margin-top: 40px;
+          border-bottom: 3px solid $brown;
+          width: 15px;
+
+        }
+
+        .presentation_right_more_3{
+
+          color: $brown;
+          font-size: 16px;
+          margin-top: 40px;
+          font-weight: 400;
+
+        }
+
+        .presentation_right_contactus_3{
+
+          background-color: $brown;
+          color: white;
+          padding: 7px;
+          text-align: center;
+          font-size: 20px;
+          text-transform: uppercase;
+          font-weight: 300;
+          position : relative;
+          margin-top: 40px;
+          max-width: 195px;
+
+        }
+
+        .presentation_right_contactus_dottedbox{
+
+
+          border-style: hidden dotted dotted hidden;
+          width: 30px;
+          height: 30px;
+          position: absolute;
+          color: $brown;
+          border-width: 1px;
+          right: -5px;
+          bottom: -5px;
+
+
+
+        }
+
+
+  }
+
+
+    .presentation_right_4{
+
+      display: none;
+      padding-top: 110px;
+      padding-left: 40px;
+      padding-right: 20px;
+
+
+      .presentation_right_title_4{
+
+        color: $brown;
+        text-transform: uppercase;
+        font-size: 25px;
+
+          .presentation_title_span{
+
+            font-weight: bold;
+            font-size: 25px;
+
+          }
+      }
+
+      .presentation_right_text_4{
+
+        line-height: 190%;
+        font-weight: 400;
+        max-width: 450px;
+        margin-top: 40px;
+        letter-spacing: 0.1px;
+        font-size: 18px;
+      }
+
+      .presentation_right_span_4{
+
+        margin-top: 40px;
+        border-bottom: 3px solid $brown;
+        width: 15px;
+
+      }
+
+      .presentation_right_more_4{
+
+        color: $brown;
+        font-size: 16px;
+        margin-top: 40px;
+        font-weight: 400;
+
+      }
+
+      .presentation_right_contactus_4{
+
+        background-color: $brown;
+        color: white;
+        padding: 7px;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 300;
+        position : relative;
+        margin-top: 40px;
+        max-width: 195px;
+
+      }
+
+      .presentation_right_contactus_dottedbox{
+
+
+        border-style: hidden dotted dotted hidden;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        color: $brown;
+        border-width: 1px;
+        right: -5px;
+        bottom: -5px;
+
+
+
+      }
+    }
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+
+
+
+
+.application{
+
+  margin-top: 50px;
+  max-width: 100%;
+  background-color: $off-white;
+  background-image: url('../img/wood.png');
+  background-repeat: no-repeat;
+  background-position: -5% -40%;
+  background-size: 30%;
+  overflow: hidden;
+
+
+  .application_left{
+
+    position: relative;
+    padding: 50px;
+
+
+    .application_left_bloc{
+
+      float: right;
+      position: relative;
+
+      &:after{
+
+
+        content: '';
+        position: absolute;
+        bottom: -60px;
+        left: -50px;
+        height: 50px;
+        width: 50px;
+        background-image: url('../img/cross.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 100%;
+
+      }
+    }
+
+    .application_left_title_1{
+
+      text-transform: uppercase;
+      color: $brown;
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+
+    .application_left_text_1{
+
+      line-height: 190%;
+      font-size: 16px;
+      max-width: 500px;
+      margin-top: 20px;
+    }
+
+  }
+
+  .application_right{
+
+
+    position: relative;
+    margin-top: 50px;
+    background-color: $brown;
+    max-width: 450px;
+    padding: 50px;
+
+
+
+
+
+    .application_right_bloc{
+
+      float: left;
+      margin-top: 20px;
+      min-height: 150px;
+      position: relative;
+
+      &:before{
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: 0;
+        height: 50px;
+        width: 50px;
+        background-image: url('../img/arrow_down.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 80%;
+      }
+     }
+
+    .application_right_title_1{
+
+      color: white;
+      text-transform: uppercase;
+      font-size: 18px;
+
+    }
+
+    .application_right_list{
+
+      margin-top: 10px;
+      color: white;
+      list-style-type: square;
+
+      .application_right_span{
+
+        color: #000;
+        font-size: 16px;
+
+      }
+    }
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+
+.picture{
+
+  width: 100%;
+  height: 400px;
+
+  .picture_background{
+
+    background-size: cover;
+    height: 400px;
+    background-image: url('http://limburghout.nl/wp-content/uploads/2016/03/limburg-hout-footer-achtergrond.jpg');
+  }
+
+
+}

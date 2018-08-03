@@ -1,0 +1,311 @@
+
+
+.gorge{
+
+  margin-top: -210px;
+  height: 600px;
+
+
+  .modif{
+
+    padding-left: 0;
+    padding-right:0;
+
+    .gorge_bloc_1{
+
+      height: 600px;
+      padding: 0px;
+
+
+    }
+
+  }
+
+
+
+  .gorge_bloc_2{
+
+    background-color: #F4F4F4;
+    height: 600px;
+    padding: 0px;
+
+    .gorge_eau{
+
+      padding-top: 110px;
+      padding-left: 40px;
+      padding-right: 20px;
+
+      .gorge_eau_title{
+
+        color: $brown;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
+        font-size: 25px;
+
+      }
+
+      .gorge_eau_text{
+
+        line-height: 190%;
+        font-weight: 400;
+        max-width: 450px;
+        margin-top: 40px;
+        letter-spacing: 0.1px;
+        font-size: 18px;
+
+      }
+
+      .gorge_eau_span{
+
+        margin-top: 40px;
+        border-bottom: 3px solid $brown;
+        width: 15px;
+      }
+
+      .gorge_eau_contactus{
+
+        background-color: $brown;
+        color: white;
+        padding: 7px;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 300;
+        position : relative;
+        margin-top: 40px;
+        max-width: 195px;
+
+        .gorge_eau_contactus_dottedbox{
+
+          border-style: hidden dotted dotted hidden;
+          width: 30px;
+          height: 30px;
+          position: absolute;
+          color: $brown;
+          border-width: 1px;
+          right: -5px;
+          bottom: -5px;
+        }
+      }
+    }
+  }
+}
+
+
+
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+
+.contexte{
+
+  margin-top: 50px;
+  max-width: 1900px;
+
+  overflow: hidden;
+
+
+
+  .contexte_left{
+
+    position: relative;
+    padding: 50px;
+
+
+    .contexte_left_bloc{
+
+      float: right;
+      position: relative;
+
+      &:after{
+
+
+        content: '';
+        position: absolute;
+        bottom: -60px;
+        left: -50px;
+        height: 50px;
+        width: 50px;
+        background-image: url('../img/cross.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 100%;
+
+      }
+    }
+
+    .contexte_left_title{
+
+      text-transform: uppercase;
+      color: $brown;
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+
+    .contexte_left_text{
+
+      line-height: 190%;
+      font-size: 16px;
+      max-width: 500px;
+      margin-top: 20px;
+    }
+
+  }
+
+  .contexte_right{
+
+
+    position: relative;
+    margin-top: 50px;
+    background-color: $brown;
+    max-width: 450px;
+    padding: 50px;
+    height: 350px;
+
+
+    .contexte_right_bloc{
+
+      float: left;
+      margin-top: 20px;
+      position: relative;
+
+      &:before{
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: 0;
+        height: 50px;
+        width: 50px;
+        background-image: url('../img/arrow_down.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 80%;
+      }
+     }
+
+    .contexte_right_title{
+
+      color: white;
+      text-transform: uppercase;
+      font-size: 18px;
+
+    }
+
+    .contexte_right_text{
+
+      line-height: 140%;
+      font-size: 16px;
+      max-width: 500px;
+      margin-top: 20px;
+    }
+
+    .contexte_right_pdf{
+
+      background-color: white;
+      color: $brown;
+      padding: 5px;
+      text-align: center;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 300;
+      position: relative;
+      max-width: 200px;
+      left: 60px;
+      margin: 0 auto;
+      top: 70px;
+
+
+      &:before{
+        content: '';
+        position: absolute;
+        top: -40px;
+        left: -40px;
+        height: 50px;
+        width: 50px;
+        background-image: url('../img/arrow_down_white.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 100%;
+      }
+    }
+
+    .contexte_right_pdf_dotted_box{
+
+      border-style: hidden dotted dotted hidden;
+      width: 30px;
+      max-width: 150px;
+      height: 30px;
+      color: white;
+      border-width: 1px;
+      position: absolute;
+      right: -5px;
+      bottom: -5px;
+
+    }
+  }
+}
+
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------------------//
+
+.download{
+
+  max-width: 1900px;
+  height: 400px;
+
+  .download_background{
+
+
+    height: 100%;
+    max-width: 100%;
+    background-color: #2D2828;
+    background-image: url('../img/gorge_picture_background.png');
+    background-repeat: no-repeat;
+    background-position:  50% 0% ;
+    background-size: cover;
+    position: relative;
+
+    .download_pdf{
+
+      background-color: $brown;
+      color: white;
+      padding: 5px;
+      text-align: center;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 300;
+      position: relative;
+      max-width: 230px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 20%;
+      position: absolute;
+
+
+
+    }
+
+    .download_pdf_dotted_box{
+
+      border-style: hidden dotted dotted hidden;
+      width: 30px;
+      max-width: 150px;
+      height: 30px;
+      color: $brown;
+      border-width: 1px;
+      position: absolute;
+      right: -5px;
+      bottom: -5px;
+
+    }
+
+
+  }
+
+
+}

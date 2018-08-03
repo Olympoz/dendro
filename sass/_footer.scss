@@ -1,0 +1,90 @@
+/*-------------------------------- BLOC FOOTER --> CONTACT --------------------------------*/
+
+
+.reau{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logo{
+
+  height: 50px;
+}
+
+
+.footer_background{
+
+
+  background-color: black;
+  position: relative;
+  width: 100%;
+
+
+
+
+  .footer_dendrabase{
+
+
+    background-color: $brown;
+    color: white;
+    padding: 7px;
+    max-width: 150px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    float: left;
+}
+
+  .logo_dendrotech{
+
+    background-image: url('../img/logo_dendrotech.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    padding-top: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(0%);
+
+  }
+
+
+
+  .footer_docs{
+
+    color: $brown;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    float: right;
+    margin-top: 7px;
+    padding-left: 10%;
+  }
+
+
+
+  .contact_container{
+    text-align: right;
+  }
+
+  .footer_contact{
+
+    background-color: #000000;
+    color: $brown;
+    text-align: center;
+    font-size: 18px;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: 1px solid $brown;
+    padding: 7px;
+
+
+
+  }
+
+}

@@ -1,0 +1,115 @@
+.page-template-contact{
+
+  .footer_background{
+
+    position: inherit !important;
+  }
+
+  .contact_row{
+
+    margin: 0 auto;
+    z-index: 600;
+    position: relative;
+
+
+    .contact_wrapper{
+
+      max-width: 1280px;
+      height: calc(100vh - (230px + 97px));
+      margin: 0 auto;
+      background-color: #F7F6F6;
+      margin-top: -210px;
+      background-image: url('../img/wood.png');
+      background-position: -56% 78%;
+      background-repeat: no-repeat;
+      background-size: 60%;
+
+      .contact_title{
+
+        font-weight: bolder;
+        font-size: 2em;
+        margin-bottom: 20px;
+        padding: 15px;
+        color: $brown;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 33px;
+
+      }
+
+      .contact_ligne{
+
+        width: 20px;
+        margin: 0 auto;
+        height: 1px;
+        border-top: 3px solid $brown;
+
+      }
+
+      .contact_subtitle{
+
+        text-align: center;
+        padding: 30px;
+        font-size: 18px;
+
+      }
+
+      .contact_infos{
+
+        border: 5px solid #96906E;
+        padding: 35px 30px;
+        width: 550px;
+        margin: 0 auto;
+        text-align: center;
+
+
+
+        .contact_infos_title{
+
+          font-size: 18px;
+          color : $brown;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .adress{
+
+          font-weight: bold;
+
+        }
+
+
+        .contact_infos_text{
+
+          font-size: 18px;
+          margin-top: 10px;
+
+
+        }
+      }
+
+      .cross_image{
+
+        // bottom: -40px;
+        // right: -40px;
+        height: 50px;
+        width: 50px;
+        background-image: url("../img/cross.png");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 120%;
+        margin: 0 auto;
+        position: relative;
+        right: -290px;
+
+      }
+    }
+  }
+
+  .footer_background{
+
+    position: fixed ;
+    bottom: 0px;
+  }
+}

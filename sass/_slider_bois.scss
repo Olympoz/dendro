@@ -1,0 +1,223 @@
+
+
+.page-template-bois_gorge_deau{
+
+    /*-------------------------------- BLOC SLIDER --> CSS WRAPPER --------------------------------*/
+
+  .gorge_bloc_1{
+
+    .gorge_bloc_1_img img{
+
+      height: 625px;
+      width: 625px;
+
+
+
+
+    }
+
+    .flickity-prev-next-button.next {
+      width: 50px;
+      height: 50px;
+      background: url('../img/right_arrow_slider_2.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+
+
+
+    }
+
+    .flickity-prev-next-button svg{
+
+      display: none !important;
+    }
+
+    .flickity-page-dots{
+
+      bottom: 25px !important;
+
+
+    }
+
+    .flickity-prev-next-button.previous{
+
+      width: 50px;
+      height: 50px;
+      background: url('../img/left_arrow_slider_2.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+
+
+    }
+  }
+
+  .main-gallery.flickity-enabled{
+
+    .flickity-page-dots{
+
+      display: none;
+    }
+  }
+
+  .main-gallery-2.flickity-enabled{
+
+    .flickity-page-dots .dot{
+
+      background: $brown;
+    }
+  }
+
+  .etape_title_1{
+
+      text-transform: uppercase;
+      color: $brown;
+      font-size: 28px;
+
+  }
+
+
+  .etape{
+
+    background-color: $off-white;
+    margin-top: 50px;
+    max-width: 1900px;
+    height: 600px;
+    background-image: url('../img/wood.png');
+    background-repeat: no-repeat;
+    background-position: -50px 180px;
+    background-size: 500px;
+
+
+        .etape_bloc{
+
+          width: 100%;
+          max-width: 1900px;
+          height: 550px;
+          margin: 0 auto;
+          position: relative;
+
+
+
+          .wrapper_etape{
+
+            width: 1250px;;
+            height: auto;
+            margin: 0 auto;
+
+            .etape_container_1{
+
+              display: inline-block;
+              width: 50%;
+              float: left;
+              margin-top: 50px !important;
+
+
+            }
+
+            .etape_container_2{
+
+              display: inline-block;
+              float: left;
+              width: 50%;
+              margin-top: 50px;
+
+
+
+            }
+
+            .etape_bloc{
+
+              border: 5px solid $brown;
+              padding: 30px;
+              width: 625px;
+              height: 400px;
+              margin-top: 20px;
+              position: relative;
+
+              .etape_title_2 {
+
+                text-transform: uppercase;
+                color: $brown;
+                font-size: 26px;
+                margin-top: 20px;
+                font-weight: 300;
+
+              }
+
+              .etape_text {
+
+                font-size: 15px;
+
+                p{
+
+                  margin-top: 50px;
+                }
+
+                li{
+
+                  margin-top: 20px;
+                  list-style-type: none;
+                }
+
+              }
+            }
+
+              .etape_image_bloc{
+
+                position: relative;
+                width: 100%;
+
+
+
+                .etape_image{
+
+                  // background-image: url('../img/etape_picture.png');
+                  background-size: 100%;
+                  background-repeat: no-repeat;
+                  background-position: center center;
+                  height: 600px;;
+                  width: 600px;
+                  float: right
+
+                }
+              }
+
+
+          }
+
+
+        }
+
+      .flickity-prev-next-button.next {
+        width: 50px;
+        height: 50px;
+        background: url('../img/right_arrow_slider_3.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+
+
+
+      }
+
+      .flickity-prev-next-button svg{
+
+        display: none !important;
+      }
+
+      .flickity-prev-next-button.previous{
+
+        width: 50px;
+        height: 50px;
+        background: url('../img/left_arrow_slider_3.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+
+
+      }
+
+ }
+}
